@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<style>    
+        body { font-family: Verdana, 'Times New Roman', serif; }
+        th {
+            padding: 10px;
+        }
+        td {
+            padding: 10px;
+            font-size:15px;
+        }        
+        #button_id {
+            padding: 5px;
+        }
+        
+        
+</style>
+<body>
+<h2>CCTV control</h2>
+
+<button id="button_center" onclick="buttonCenter()">Center</button>
+<button id="button_updown" onclick="buttonUpDown()">Up</button>
+<button id="button_rightleft" onclick="buttonRightLeft()">Right</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script><!-- include socket.io client side script -->
+<script>
+var socket = io(); //load socket.io-client and connect to the host that serves the page
+
+window.addEventListener("load", function(){ //when page loads
+ 
+});
+
+function buttonCenter() {
+socket.emit("button_center");
+}
+
+function buttonUpDown(position) {
+socket.emit("button_updown", position);
+}
+
+function buttonRightLeft(position) {
+socket.emit("button_rightleft", position);
+}
+
+
+</script>
+</html>
+</body>
+</html>
