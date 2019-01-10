@@ -1,2 +1,3 @@
-# HomeIoT
-Home CCTV (Raspberry Pi + camera module + 2 sg90)
+# HomeIoT CCTV
+
+![]({{site.baseurl}}/https://github.com/jwluv/HomeIoT_CCTV/blob/master/HomeIoT_CCTV.jpg)
