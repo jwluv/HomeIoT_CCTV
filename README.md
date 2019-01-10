@@ -1,3 +1,3 @@
 # HomeIoT CCTV
 
-![]({{site.baseurl}}/https://github.com/jwluv/HomeIoT_CCTV/blob/master/HomeIoT_CCTV.jpg)
+(https://github.com/jwluv/HomeIoT_CCTV/blob/master/HomeIoT_CCTV.jpg)
