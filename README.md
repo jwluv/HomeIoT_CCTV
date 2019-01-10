@@ -1,9 +1,9 @@
 # Home IoT CCTV
 
-> **필요 구성품:**
-> - Raspberry Pi 3 B+
+> **Required equipment:**
+> - Raspberry Pi 3 B+ with Raspbian OS + motion for Camera module installed
 > - Camera module
-> - SG90 서보 모터 2개, 카메라 거치대
+> - SG90 servo motor 2ea, holder for camera and motor
 > - Android device
 
 이 프로젝트에서 쓰인 구성품은 Raspberry Pi 3 b+, 라즈베리 파이 전용 카메라 모듈, 카메라를 움직이게 하기 위한 구성품으로 SG90 서보모터 2개와 거치대, CCTV를 모니터링하고 움직이게 제어하기 위한 안드로이드 디바이스가 필요하다.
