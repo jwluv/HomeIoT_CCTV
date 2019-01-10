@@ -1,6 +1,6 @@
 # Home IoT CCTV
 
->** 필요 구성품:**
+> **필요 구성품:**
 > - Raspberry Pi 3 B+
 > - Camera module
 > - SG90 서보 모터 2개, 카메라 거치대
