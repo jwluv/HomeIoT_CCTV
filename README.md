@@ -40,4 +40,5 @@ To run Node.js on Raspberry Pi, you have to use npm, Node.js package manager. Af
 
 ----------------------------------------------------------------------------------------------------------
 Watch the video to check how this project works. 
+
 [![Video Label](http://img.youtube.com/vi/M9G-p8C65eI/0.jpg)](https://www.youtube.com/watch?v=M9G-p8C65eI)
