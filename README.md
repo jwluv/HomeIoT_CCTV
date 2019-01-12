@@ -16,7 +16,7 @@ If you didn't install Raspbian OS and motion software on your Raspberry Pi, you 
 
 The source code consists of two parts, the server(Raspberry Pi) and the client(Android device). <br>
 In the server side, there are Node.js, html and python code. In the client side, there is an android project. <br>
-The python code directly controls the position of sg90 servo motor.
+The python code directly controls the angle of 2 sg90 servo motors.
 
 To download the newest version of Node.js(Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.),
 > curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
