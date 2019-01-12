@@ -6,11 +6,37 @@
 > - SG90 servo motor 2ea, holder for camera and motor
 > - Android device
 
-이 프로젝트에서 쓰인 구성품은 Raspberry Pi 3 b+, 라즈베리 파이 전용 카메라 모듈, 카메라를 움직이게 하기 위한 구성품으로 SG90 서보모터 2개와 거치대, CCTV를 모니터링하고 움직이게 제어하기 위한 안드로이드 디바이스가 필요하다.
+The required equipment in this projects are Raspberry Pi 3 Model B+, Camera module, 2 SG90 servo motors, holder for motor and camera module, Android device to monitor and control CCTV.  
+
+If you didn't install Raspbian OS and motion software on your Raspberry Pi, you need to check [this](https://github.com/jwluv/HomeIoT_CCTV/blob/master/RaspberryPi_setup_Camera_install.pdf) first. 
+
 
 ![이미지](https://github.com/jwluv/HomeIoT_CCTV/blob/master/HomeIoT_CCTV.jpg)
 **<그림> Home IoT architecture for CCTV**
 
+The source code consists of two parts, the server(Raspberry Pi) and the client(Android device).
+In the server side, there are Node.js, html and python code. In the client side, there is an android project.
+The python code directly controls the position of sg90 servo motor.
 
-### 실제 동작하는 동영상을 확인해 보세요.
+To download the newest version of Node.js(Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.),
+> curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+
+To install Node.js,
+> sudo apt-get install -y nodejs
+
+To check the version of Node.js,
+> node -v
+
+After placing the source codes such as cctv_control.js, public/cctv_control.html and camera_move.py in the same directory on Raspberry Pi,
+
+To run Node.js on Raspberry Pi, you have to use npm, Node.js package manager. After that run Node.js file, cctv_control.js.
+(npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js.)
+
+> npm init
+> npm install socket.io --save
+> node cctv_control.js
+
+
+
+----------------------------------------------------------------------------------------------------------
 [![Video Label](http://img.youtube.com/vi/M9G-p8C65eI/0.jpg)](https://www.youtube.com/watch?v=M9G-p8C65eI)
