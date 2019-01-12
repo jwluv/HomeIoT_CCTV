@@ -3,7 +3,7 @@
 > **Required equipment:**
 > - Raspberry Pi 3 B+ with Raspbian OS + motion for Camera module installed
 > - Camera module
-> - SG90 servo motor 2ea, holder for camera and motor
+> - 2 SG90 servo motor, holder for camera and SG90
 > - Android device
 
 The required equipment in this projects are Raspberry Pi 3 Model B+, Camera module, 2 SG90 servo motors, holder for motor and camera module, Android device to monitor and control CCTV.  
