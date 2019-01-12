@@ -14,8 +14,8 @@ If you didn't install Raspbian OS and motion software on your Raspberry Pi, you 
 ![이미지](https://github.com/jwluv/HomeIoT_CCTV/blob/master/HomeIoT_CCTV.jpg)
 **<그림> Home IoT architecture for CCTV**
 
-The source code consists of two parts, the server(Raspberry Pi) and the client(Android device).
-In the server side, there are Node.js, html and python code. In the client side, there is an android project.
+The source code consists of two parts, the server(Raspberry Pi) and the client(Android device). <br>
+In the server side, there are Node.js, html and python code. In the client side, there is an android project. <br>
 The python code directly controls the position of sg90 servo motor.
 
 To download the newest version of Node.js(Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.),
@@ -32,8 +32,8 @@ After placing the source codes such as cctv_control.js, public/cctv_control.html
 To run Node.js on Raspberry Pi, you have to use npm, Node.js package manager. After that run Node.js file, cctv_control.js.
 (npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js.)
 
-> npm init
-> npm install socket.io --save
+> npm init <br>
+> npm install socket.io --save <br>
 > node cctv_control.js
 
 
