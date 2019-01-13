@@ -18,7 +18,7 @@ If you didn't install Raspbian OS and motion software on your Raspberry Pi, you 
 
 The source codes consist of two parts for the server(Raspberry Pi) and the client(Android device). <br>
 In the server side, there are Node.js, html and python code. In the client side, there is an android project. <br>
-Node.js communicates with the client(Android app.) using socket connection and also can control the GPIO of Raspberry Pi.
+Node.js communicates with the client(Android app.) through html using socket connection and also can control the GPIO of Raspberry Pi.
 In this project, the python code directly controls the angle of 2 sg90 servo motors whenever the client requests it.
 
 To download the newest version of Node.js (Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.),
