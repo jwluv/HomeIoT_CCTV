@@ -24,12 +24,12 @@ To download the newest version of Node.js(Node.js is a JavaScript runtime built 
 To install Node.js,
 > sudo apt-get install -y nodejs
 
-To check the version of Node.js,
+To check the version of Node.js, installed,
 > node -v
 
 Place the source codes such as cctv_control.js, public/cctv_control.html and camera_move.py in the same directory on Raspberry Pi.
 
-To run Node.js on Raspberry Pi, you have to use npm, Node.js package manager. After that, run Node.js file, cctv_control.js.
+To run Node.js on Raspberry Pi, you have to use npm, Node.js package manager which is installed with Node.js. After that, run Node.js file, cctv_control.js.
 (npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js.)
 
 > npm init <br>
