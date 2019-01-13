@@ -1,5 +1,7 @@
 # Home IoT CCTV
 
+![](https://github.com/jwluv/HomeIoT_CCTV/blob/master/raspberry_camera.jpg)
+
 > **Required equipment:**
 > - Raspberry Pi 3 B+ with Raspbian OS + motion for Camera module
 > - Camera module
