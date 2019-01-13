@@ -2,6 +2,8 @@
 
 ![](https://github.com/jwluv/HomeIoT_CCTV/blob/master/raspberry_camera.jpg)
 
+<img src="https://github.com/jwluv/HomeIoT_CCTV/blob/master/raspberry_camera.jpg"  width="500" height="380"> 
+
 > **Required equipment:**
 > - Raspberry Pi 3 B+ with Raspbian OS + motion for Camera module
 > - Camera module
