@@ -10,13 +10,13 @@
 
 The required equipment in this projects are Raspberry Pi 3 Model B+, Camera module, 2 SG90 servo motors, holder for motor and camera module, Android device to monitor and control CCTV.  
 
-If you didn't install Raspbian OS and motion software on your Raspberry Pi, you need to check [<u>this</u>](https://github.com/jwluv/HomeIoT_CCTV/blob/master/RaspberryPi_setup_Camera_install.pdf) first. 
+If you didn't install Raspbian OS and motion software on your Raspberry Pi, you need to check [this](https://github.com/jwluv/HomeIoT_CCTV/blob/master/RaspberryPi_setup_Camera_install.pdf) first. 
 
 
 ![이미지](https://github.com/jwluv/HomeIoT_CCTV/blob/master/HomeIoT_CCTV.jpg)
 **<그림> Home IoT architecture for CCTV**
 
-The source code consists of two parts for the server(Raspberry Pi) and the client(Android device). <br>
+The source codes consist of two parts for the server(Raspberry Pi) and the client(Android device). <br>
 In the server side, there are Node.js, html and python code. In the client side, there is an android project. <br>
 Node.js communicates with the client(Android app.) using socket connection and also can control the GPIO of Raspberry Pi.
 In this project, the python code directly controls the angle of 2 sg90 servo motors whenever the client requests it.
