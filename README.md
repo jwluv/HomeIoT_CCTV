@@ -1,7 +1,7 @@
 # Home IoT CCTV
 
 > **Required equipment:**
-> - Raspberry Pi 3 B+ with Raspbian OS + motion for Camera module installed
+> - Raspberry Pi 3 B+ with Raspbian OS + motion for Camera module
 > - Camera module
 > - 2 SG90 servo motor, holder for camera and SG90
 > - Android device
