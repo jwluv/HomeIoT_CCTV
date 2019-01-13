@@ -14,7 +14,7 @@ If you didn't install Raspbian OS and motion software on your Raspberry Pi, you 
 
 
 ![이미지](https://github.com/jwluv/HomeIoT_CCTV/blob/master/HomeIoT_CCTV.jpg)
-**<그림> Home IoT architecture for CCTV**
+**<Figure> Home IoT architecture for CCTV**
 
 The source codes consist of two parts for the server(Raspberry Pi) and the client(Android device). <br>
 In the server side, there are Node.js, html and python code. In the client side, there is an android project. <br>
